@@ -1,0 +1,22 @@
+body {
+    background-image: url(../imgs/bg1000.jpg);
+
+}
+
+#logo {
+   font-family: 'Press Start 2P';
+    margin-left: 50px;
+}
+
+#lists {
+    margin-right: 50px;
+}
+
+#navbar {
+    background: rgba(1, 63, 99, 0.9);
+}
+
+#introVideo {
+    margin-left: 20%;
+    margin-top: 5%;
+}
