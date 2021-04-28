@@ -3,20 +3,69 @@ body {
 
 }
 
+.nav-wrapper {
+    background-color: rgb(4, 114, 114);
+    width: 100%;
+}
+
 #logo {
    font-family: 'Press Start 2P';
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 #lists {
     margin-right: 50px;
+    height: 80px;
+}
+
+#nav {
+    height: 5%;
+}
+
+#title {
+    font-family: 'Press Start 2P';
+    margin-left: 15%;
 }
 
 #navbar {
     background: rgba(1, 63, 99, 0.9);
 }
 
+#nav-content {
+    position: absolute;
+}
+
 #introVideo {
-    margin-left: 20%;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+
+
+.float-right {
+    float: right;
+    margin-right: 25mm;
+    margin-top: 10mm;
+}
+
+
+footer p {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    outline-style: outset;
+    outline-color: rgb(38, 178, 202);
+    outline-offset: 2mm;
+    font-size: 15px;
+    letter-spacing: 1mm;
+    border-style: dotted;
+}
+
+.row {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: auto;
     margin-top: 5%;
 }

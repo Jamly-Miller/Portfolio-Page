@@ -11,54 +11,127 @@
     <!-- title -->
     <title>Jamly Miller The Programmer</title>
 </head>
+
 <!-- page starts -->
 <body>
-      <!-- contact lists -->
-      <ul id="profilePages" class="dropdown-content">
-        <li><a id="TeamNumbers" href="https://github.com/Jamly-Miller" target="_blank">GitHub</a></li>
-        <li><a id="TeamNumbers" href="https://www.linkedin.com/in/jamly-miller-125307200/" target="_blank">LinkedIn</a></li>
-      </ul>
-      <ul id="projects" class="dropdown-content">
-        <li><a id="TeamNumbers" href="https://jamly-miller.github.io/Project-1-PopcornTagger/" target="_blank">Popcorn Tagger</a></li>
-        <li><a id="TeamNumbers" href="https://radiant-woodland-55913.herokuapp.com/" target="_blank">Villagers101</a></li>
-      </ul>
-      <ul id="socialMedia" class="dropdown-content">
-        <li><a href="https://twitter.com/JamlyMiller" target="_blank">Twitter</a></li>
-        <li><a id="TeamNumbers" href="https://github.com/Jamly-Miller" target="_blank">FB</a></li>
-      </ul>
+    <!-- contact lists -->
+    <ul id="profilePages" class="dropdown-content">
+      <li><a id="GitHub" href="https://github.com/Jamly-Miller" target="_blank">GitHub</a></li>
+      <li><a id="LinkedIn" href="https://www.linkedin.com/in/jamly-miller-125307200/" target="_blank">LinkedIn</a></li>
+    </ul>
+    <ul id="projects" class="dropdown-content">
+      <li><a id="PopcornTagger" href="https://jamly-miller.github.io/Project-1-PopcornTagger/" target="_blank">Popcorn Tagger</a></li>
+      <li><a id="iVillagers" href="https://radiant-woodland-55913.herokuapp.com/" target="_blank">iVillagers</a></li>
+      <li><a id="iVillagers" href="https://rent-my-bike-team07.herokuapp.com/" target="_blank">BiKing</a></li>
+    </ul>
 
-   <!-- // nav bar  -->
-    <nav>
-        <div class="nav-wrapper" id="navbar">
-          <a href="https://www.dmv.ca.gov/wasapp/ica/statusDLCheck.do" class="brand-logo" id="logo">Jamly Miller</a>
-          <a href="#" class="sidenav-trigger" data-target="mobile-nav">
-              <i class="material-icons">menu</i>
-          </a>
-          <ul class="right hide-on-med-and-down" id="lists">
-            <li>
-                <a class="dropdown-trigger" href="#!" data-target="profilePages"
-                  >Profile<i class="material-icons right">arrow_drop_down</i></a
-                >
-            </li>
-            <li>
-                <a class="dropdown-trigger" href="#!" data-target="projects"
-                  >Projects<i class="material-icons right">arrow_drop_down</i></a
-                >
-            </li>
-            <li>
-                <a class="dropdown-trigger" href="#!" data-target="socialMedia"
-                  >Social Media<i class="material-icons right">arrow_drop_down</i></a
-                >
-            </li>
-          </ul>
+    <!-- // nav bar  -->
+    <nav id="nav">
+      <div class="nav-wrapper" id="navbar">
+
+        <a href="https://www.dmv.ca.gov/wasapp/ica/statusDLCheck.do" class="brand-logo" id="logo">Jamly Miller</a>
+        <span id="title">A Virgo Full Stack Developer</span>
+        <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+            <i class="material-icons">menu</i>
+        </a>
+
+        <ul class="right hide-on-med-and-down" id="lists">
+          <li>
+              <a class="dropdown-trigger" href="#!" data-target="profilePages"
+                >Social Medias<i class="material-icons right">arrow_drop_down</i></a
+              >
+          </li>
+
+        </ul>
+
+
+
+      </div>
+    </nav>
+  <div class="nav-wrapper">
+    <div class="row">
+      <div class="col s12">
+        <div class="col s3"><a class="waves-effect waves-light btn">Full Stack Applications</a></div>
+        <div class="col s3"><a class="waves-effect waves-light btn">FrontEnd Design Projects</a></div>
+        <div class="col s2"><a class="waves-effect waves-light btn">BackEnd Projects</a></div>
+        <div class="col s2"><a class="waves-effect waves-light btn">About Me</a></div>
+        <div class="col s2"><a class="waves-effect waves-light btn">Contact Me</a></div>
+      </div>
+    </div>
+  </div>
+
+    <!-- // insert introVideo -->
+
+
+    <!-- section bars -->
+    <div class="row">
+
+      <div class="col s4">
+
+          <div class="card">
+            <div class="card-image">
+              <img src="./Assets/imgs/BiKing.jpg">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+
+      </div>
+
+      
+    <div class="col s4">
+
+        <div class="card">
+          <div class="card-image">
+            <img src="./Assets/imgs/iVillagers.jpg">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
         </div>
-      </nav>
 
-   <!-- // insert introVideo -->
-      <video width="960" height="540" controls id="introVideo">
-        <source src="./Assets/imgs/studio_video_1611696496213481.MP4" type="video/mp4">
-      Your browser does not support the video tag.
-      </video>
+    </div>
+
+    <div class="col s4">
+
+        <div class="card">
+          <div class="card-image">
+            <img src="./Assets/imgs/popcornTagger.jpg">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+
+    </div>
+
+  </div>
+
+
+
+
+    <!-- footer -->
+    <footer id="footer">
+      <p id="footerP">Making The World A Better Place By Having A Cup Of Coffee Every Morning
+      </p>
+    </footer>
+
 
    <!-- link js -->
     <script
