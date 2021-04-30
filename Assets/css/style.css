@@ -1,8 +1,10 @@
 
 body {
     background-image: url(../imgs/bg1000.jpg);
-
 }
+
+
+     
 
 #projectsPages {
     min-width: 350px;
@@ -12,7 +14,6 @@ body {
 
 .nav-wrapper {
     background: rgba(3, 80, 90, 0.9);
-    width: 100%;
 }
 
 .waves-effect {
@@ -60,6 +61,10 @@ body {
     margin-top: 10mm;
 }
 
+#footer {
+    position: absolute;
+    width: 100%;
+}
 
 footer p {
     position: fixed;
