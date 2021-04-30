@@ -1,12 +1,24 @@
+
 body {
     background-image: url(../imgs/bg1000.jpg);
 
 }
 
+#projectsPages {
+    min-width: 350px;
+}
+
+
+
 .nav-wrapper {
-    background-color: rgb(4, 114, 114);
+    background: rgba(3, 80, 90, 0.9);
     width: 100%;
 }
+
+.waves-effect {
+    background-color: rgb(3, 132, 141);
+}
+
 
 #logo {
    font-family: 'Press Start 2P';
